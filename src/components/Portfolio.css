@@ -1,0 +1,41 @@
+.portfolio {
+    background: var(--background600);
+    padding: 5rem 0;
+}
+
+.portfolio-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.portfolio-container h1 {
+    color: var(--primary);
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.portfolio-container h2 {
+    color: #2d2e32;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 4rem;
+}
+
+.cards-container {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+/* ---------- Media querys ---------- */
+
+/* Phone */
+
+@media (max-width: 600px) {
+    .portfolio-container {
+        max-width: 90%;
+    }
+}

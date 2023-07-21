@@ -1,0 +1,45 @@
+.footer {
+    overflow: hidden;
+    background-color: var(--text400);
+    color: var(--background500);
+    padding: 5rem 2rem;
+}
+
+.footer-container>div>h1 {
+    color: var(--background500);
+    font-size: 2rem;
+}
+
+.footer-container {
+    margin: 0 auto;
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer svg {
+    width: 36px;
+    height: 36px;
+}
+
+.footer-links a:not(:last-child) {
+    padding-right: 2rem;
+}
+
+/* ---------- Media querys ---------- */
+
+/* Phone */
+
+@media (max-width: 600px) {
+    .footer-container {
+        text-align: center;
+        max-width: 90%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer-container>div>h1 {
+        padding: 4rem 0;
+    }
+}

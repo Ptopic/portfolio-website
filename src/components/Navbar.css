@@ -1,0 +1,120 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background500);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 25px 150px 25px 150px;
+    width: 100%;
+    font-size: 1.6rem;
+    z-index: 200;
+}
+
+.navbar h1 {
+    font-size: 2.6rem;
+    color: var(--primary);
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul>li,
+a {
+    color: var(--text500);
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.8rem;
+    transition: all 0.4s ease;
+}
+
+.navbar ul>li>a:hover {
+    color: var(--primary);
+    transition: all 0.4s ease;
+}
+
+.navbar ul>li:not(:last-child) {
+    padding-right: 2rem;
+}
+
+.navbar-mobile {
+    display: none;
+}
+
+.navbar-mobile-container {
+    display: none;
+}
+
+/* ---------- Media querys ---------- */
+
+/* Phone */
+
+@media (max-width: 600px) {
+    .navbar {
+        display: none;
+    }
+
+    .navbar-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--background500);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding: 25px 25px 25px 25px;
+        width: 100%;
+        font-size: 1.6rem;
+        z-index: 200;
+    }
+
+    .navbar-mobile h1 {
+        font-size: 2.6rem;
+        color: var(--primary);
+    }
+
+    .navbar-mobile-container {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100dvh;
+        background: var(--background500);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-mobile-container button {
+        position: fixed;
+        top: 25px;
+        right: 25px;
+    }
+
+    .navbar-mobile-container div {
+        padding: 2rem;
+    }
+
+    .navbar-mobile-container ul>li,
+    a {
+        color: var(--text500);
+        text-decoration: none;
+        list-style: none;
+        font-size: 3.8rem;
+    }
+
+    .navbar-mobile-container ul>li:not(:last-child) {
+        padding-right: 2rem;
+    }
+
+    .navbar-mobile button {
+        background: none;
+        outline: none;
+        border: none;
+    }
+}

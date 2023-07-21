@@ -56,6 +56,7 @@ function Navbar() {
 								<IoCloseOutline size={46} color="#000" />
 							</button>
 							<m.div
+								onClick={() => toggleNav()}
 								initial={{ y: 80, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
 								transition={{ delay: 0.2 }}
@@ -70,6 +71,7 @@ function Navbar() {
 								<a href="#home">Home</a>
 							</m.div>
 							<m.div
+								onClick={() => toggleNav()}
 								initial={{ y: 80, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
 								transition={{ delay: 0.6 }}
@@ -84,6 +86,7 @@ function Navbar() {
 								<a href="#about">About</a>
 							</m.div>
 							<m.div
+								onClick={() => toggleNav()}
 								initial={{ y: 80, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
 								transition={{ delay: 1 }}
@@ -98,6 +101,7 @@ function Navbar() {
 								<a href="#portfolio">Projects</a>
 							</m.div>
 							<m.div
+								onClick={() => toggleNav()}
 								initial={{ y: 80, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
 								transition={{ delay: 1.4 }}

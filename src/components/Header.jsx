@@ -49,8 +49,8 @@ function Header() {
 								delay: 0.8,
 							}}
 						>
-							Hi I'm Petar Topić. A passionate Back-end Developer based in
-							Solin, Croatia 📍
+							Hi I'm Petar. A passionate Back-end Developer based in Solin,
+							Croatia 📍
 						</m.p>
 						<div className="links">
 							<m.div

@@ -89,7 +89,6 @@ function About() {
 				<m.div className="cv-container">
 					<m.a
 						href={cv}
-						download="CV"
 						whileInView="visible"
 						viewport={{ once: true }}
 						variants={{
@@ -103,7 +102,7 @@ function About() {
 							delay: 2.4,
 						}}
 					>
-						Download CV
+						View My CV
 					</m.a>
 				</m.div>
 			</div>

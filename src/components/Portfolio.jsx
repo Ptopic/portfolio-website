@@ -53,7 +53,7 @@ function Portfolio() {
 					<Card
 						title={'PikaCode ERC-1155 NFT contract'}
 						description={
-							'ERC-1155 contract built with solidity. Allows for multiple owners on same NFT. Also has a frontend website for buying from NFT collection.'
+							'ERC-1155 Smart Contract built with solidity. Allows for multiple owners on same NFT. Also has a frontend website for buying from NFT collection'
 						}
 						techStack={['Solidity', 'React']}
 						image={project2}
@@ -67,7 +67,7 @@ function Portfolio() {
 					<Card
 						title={'ERC-721 Smart Contract'}
 						description={
-							'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, sapiente. Consectetur esse vel eum eveniet doloremque eaque error, natus distinctio.'
+							'ERC-721 Smart Contract built with solidity. In this contract all NFT-s are unique which means they have only one owner. Smart Contract is hosted on Opensea'
 						}
 						techStack={['Solidity']}
 						image={erc721}
@@ -81,7 +81,7 @@ function Portfolio() {
 					<Card
 						title={'Table Management App'}
 						description={
-							'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, sapiente. Consectetur esse vel eum eveniet doloremque eaque error, natus distinctio.'
+							'App for managing tables in a restaurant. User can view all tables that are free or reserved at specific time. User can also add new reservations at specific time, edit reservations or delete reservations'
 						}
 						techStack={['Nodejs', 'React']}
 						image={table}
@@ -93,7 +93,7 @@ function Portfolio() {
 					<Card
 						title={'Dopamine App'}
 						description={
-							'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, sapiente. Consectetur esse vel eum eveniet doloremque eaque error, natus distinctio.'
+							'React Native app for tracking users dopamine levels. Currently only authentication is built'
 						}
 						techStack={['Nodejs', 'React']}
 						image={dopamine}
@@ -105,7 +105,7 @@ function Portfolio() {
 					<Card
 						title={'Font Collection Website'}
 						description={
-							'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, sapiente. Consectetur esse vel eum eveniet doloremque eaque error, natus distinctio.'
+							'App for collecting all of your favourite fonts in one place. Users can view all fonts in collection, add new fonts, edit them or delete them'
 						}
 						techStack={['Nodejs', 'React']}
 						image={project1}
@@ -117,7 +117,7 @@ function Portfolio() {
 					<Card
 						title={'Funko Pop Collection Website'}
 						description={
-							'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, sapiente. Consectetur esse vel eum eveniet doloremque eaque error, natus distinctio.'
+							'Project for personal use. Used to keep track of all funko pop pikachu figures that are in my collection'
 						}
 						techStack={['Nodejs', 'React']}
 						image={pikachu}
@@ -130,9 +130,7 @@ function Portfolio() {
 
 					<Card
 						title={'Personal Portfolio Website'}
-						description={
-							'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, sapiente. Consectetur esse vel eum eveniet doloremque eaque error, natus distinctio.'
-						}
+						description={'My personal portfolio website'}
 						techStack={['React']}
 						image={portfolio}
 						codeLink={'https://github.com/Ptopic/portfolio-website'}
@@ -143,7 +141,7 @@ function Portfolio() {
 					<Card
 						title={'Konoba Pizzeria River Website'}
 						description={
-							'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, sapiente. Consectetur esse vel eum eveniet doloremque eaque error, natus distinctio.'
+							'Website for restaurant. Includes header carousel, about section, contact section, gallery and food, drinks and wine menu'
 						}
 						techStack={['React']}
 						image={river}

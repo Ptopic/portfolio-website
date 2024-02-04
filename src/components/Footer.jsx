@@ -5,7 +5,7 @@ function Footer() {
 		<section className="footer">
 			<div className="footer-container">
 				<div>
-					<h1>Copyright © 2023. All rights are reserved</h1>
+					<h1>Copyright &copy; 2024. All rights are reserved</h1>
 				</div>
 				<div className="footer-links">
 					<a href="https://www.linkedin.com/in/petar-topi%C4%87-4a551a234/">

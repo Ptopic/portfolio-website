@@ -31,6 +31,7 @@
 .tech-stack-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10rem;
 }
 
 .tech-stack-images div>div {
@@ -56,6 +57,7 @@
 .tech-stack-image img {
     width: 36px;
     height: 36px;
+    object-fit: scale-down;
 }
 
 .left-content {
@@ -125,7 +127,7 @@
         padding: 14rem 0;
         align-items: flex-start;
         justify-content: flex-start;
-        height: auto;
+        height: 160dvh;
     }
 
     .header-content {
@@ -146,6 +148,13 @@
 
     .tech-stack-images {
         grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .tech-stack-images div>div {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 2rem;
     }
 
     .right-content img {

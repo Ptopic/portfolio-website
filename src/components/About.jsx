@@ -63,7 +63,7 @@ function About() {
 						delay: 1.6,
 					}}
 				>
-					A Back-End developer based in Solin, Croatia 📍
+					A Full-Stack developer based in Solin, Croatia 📍
 				</m.h1>
 				<m.p
 					initial="hidden"

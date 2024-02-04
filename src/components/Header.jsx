@@ -6,6 +6,7 @@ import html from '../assets/images/html.png';
 import css from '../assets/images/css.png';
 import javascript from '../assets/images/javascript.png';
 import react from '../assets/images/react.png';
+import nextjs from '../assets/images/nextjs.png';
 import nodejs from '../assets/images/nodejs.png';
 import expressjs from '../assets/images/expressjs.png';
 import mysql from '../assets/images/mysql.png';
@@ -32,7 +33,7 @@ function Header() {
 								delay: 0.4,
 							}}
 						>
-							Back-End Developer
+							Full-Stack Developer
 						</m.h1>
 						<m.p
 							initial="hidden"
@@ -49,7 +50,7 @@ function Header() {
 								delay: 0.8,
 							}}
 						>
-							Hi I'm Petar. A passionate Back-end Developer based in Solin,
+							Hi I'm Petar. A passionate Full-Stack Developer based in Solin,
 							Croatia 📍
 						</m.p>
 						<div className="links">
@@ -163,6 +164,74 @@ function Header() {
 									delay: 1.6,
 								}}
 							>
+								Front-End
+							</m.p>
+							<m.div
+								initial="hidden"
+								whileInView="visible"
+								viewport={{ once: true }}
+								variants={{
+									visible: { opacity: 1 },
+									hidden: { opacity: 0 },
+								}}
+								transition={{
+									type: 'spring',
+									stiffness: 220,
+									damping: 30,
+									delayChildren: 0.3,
+									staggerChildren: 0.05,
+									delay: 1.6,
+								}}
+							>
+								<m.div className="tech-stack-image">
+									<img
+										src={'https://skillicons.dev/icons?i=html&theme=light'}
+										alt=""
+									/>
+								</m.div>
+								<m.div className="tech-stack-image">
+									<img
+										src={'https://skillicons.dev/icons?i=css&theme=light'}
+										alt=""
+									/>
+								</m.div>
+								<m.div className="tech-stack-image">
+									<img
+										src={'https://skillicons.dev/icons?i=js&theme=light'}
+										alt=""
+									/>
+								</m.div>
+								<m.div className="tech-stack-image">
+									<img
+										src={'https://skillicons.dev/icons?i=ts&theme=light'}
+										alt=""
+									/>
+								</m.div>
+								<m.div className="tech-stack-image">
+									<img src={react} alt="" />
+								</m.div>
+								<m.div className="tech-stack-image">
+									<img src={nextjs} alt="" />
+								</m.div>
+							</m.div>
+						</div>
+
+						<div>
+							<m.p
+								initial="hidden"
+								whileInView="visible"
+								viewport={{ once: true }}
+								variants={{
+									visible: { scale: 1 },
+									hidden: { scale: 0 },
+								}}
+								transition={{
+									type: 'spring',
+									stiffness: 220,
+									damping: 30,
+									delay: 1.6,
+								}}
+							>
 								Back-End
 							</m.p>
 							<m.div
@@ -200,57 +269,16 @@ function Header() {
 									<img src={mysql} alt="" />
 								</m.div>
 								<m.div className="tech-stack-image">
-									<img src={swagger} alt="" />
-								</m.div>
-							</m.div>
-						</div>
-
-						<div>
-							<m.p
-								initial="hidden"
-								whileInView="visible"
-								viewport={{ once: true }}
-								variants={{
-									visible: { scale: 1 },
-									hidden: { scale: 0 },
-								}}
-								transition={{
-									type: 'spring',
-									stiffness: 220,
-									damping: 30,
-									delay: 1.6,
-								}}
-							>
-								Front-End
-							</m.p>
-							<m.div
-								initial="hidden"
-								whileInView="visible"
-								viewport={{ once: true }}
-								variants={{
-									visible: { opacity: 1 },
-									hidden: { opacity: 0 },
-								}}
-								transition={{
-									type: 'spring',
-									stiffness: 220,
-									damping: 30,
-									delayChildren: 0.3,
-									staggerChildren: 0.05,
-									delay: 1.6,
-								}}
-							>
-								<m.div className="tech-stack-image">
-									<img src={html} alt="" />
+									<img
+										src={'https://skillicons.dev/icons?i=mongodb&theme=light'}
+										alt=""
+									/>
 								</m.div>
 								<m.div className="tech-stack-image">
-									<img src={css} alt="" />
-								</m.div>
-								<m.div className="tech-stack-image">
-									<img src={javascript} alt="" />
-								</m.div>
-								<m.div className="tech-stack-image">
-									<img src={react} alt="" />
+									<img
+										src={'https://skillicons.dev/icons?i=solidity&theme=light'}
+										alt=""
+									/>
 								</m.div>
 							</m.div>
 						</div>
